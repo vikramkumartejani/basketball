@@ -42,9 +42,9 @@ const UpcomingEvents = () => {
                 {event.location}
               </p>
               <p className="text-gray-700 mb-4">{event.description}</p>
-              <button className="block w-full bg-blue-500 text-white py-2 rounded-full hover:bg-blue-600 transition duration-300">
+              {/* <button className="block w-full bg-blue-500 text-white py-2 rounded-full hover:bg-blue-600 transition duration-300">
               Learn More
-              </button>
+              </button> */}
             </div>
           ))}
         </div>

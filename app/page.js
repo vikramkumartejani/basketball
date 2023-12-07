@@ -1,5 +1,5 @@
-import Hero from "./components/Hero";
-import Navbar  from "./components/Navbar";
+import Hero from "./_components/Hero";
+import Navbar  from "./_components/Navbar";
 
 // import Teams from "./components/Teams";
 // import SeasonLeaders from "./components/SeasonLeaders";
@@ -9,7 +9,6 @@ export default function Home() {
  
   return (
     <main>
-      <Navbar />
       <Hero/>
       {/* <Teams/> */}
       {/* <SeasonLeaders/> */}
